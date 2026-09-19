@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-  <title>Happy Birthday Bhuvana 🎂✨</title>
-  <meta name="description" content="A grand birthday video celebration for Bhuvana featuring custom audio during photos, falling rose petals & party emojis!"/>
+  <title>Happy 18th Birthday Bhuvana 🎂✨</title>
+  <meta name="description" content="A grand 18th birthday celebration for Bhuvana featuring shooting stars, magic dust, custom audio & photo memories!"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -18,9 +18,9 @@
       --rose: #e8a0b4;
       --rose-deep: #b5485a;
       --cream: #fdf6ec;
-      --dark: #080306;
-      --dark2: #14070f;
-      --dark3: #200c18;
+      --dark: #060205;
+      --dark2: #12050e;
+      --dark3: #1a0814;
       --text-light: #f9e8d4;
     }
 
@@ -32,7 +32,7 @@
       overflow: hidden;
     }
 
-    /* ========== SPARKLE & FLORAL CANVAS ========== */
+    /* ========== SHOOTING STARS & MAGIC CANVAS ========== */
     #sparkle-canvas {
       position: fixed;
       top: 0; left: 0;
@@ -46,7 +46,7 @@
       position: fixed;
       inset: 0;
       z-index: 1000;
-      background: #080306;
+      background: #060205;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -71,15 +71,15 @@
     }
 
     .reel-avatar {
-      width: 42px; height: 42px;
+      width: 44px; height: 44px;
       border-radius: 50%;
       border: 2px solid var(--gold);
       background: linear-gradient(135deg, var(--gold-light), var(--rose));
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 1.3rem;
-      box-shadow: 0 0 15px rgba(201,168,76,0.6);
+      font-size: 1.35rem;
+      box-shadow: 0 0 18px rgba(201,168,76,0.7);
     }
 
     .reel-title-text {
@@ -111,7 +111,7 @@
       position: fixed;
       inset: 0;
       z-index: 3000;
-      background: radial-gradient(circle at center, #2b0b1a 0%, #080306 100%);
+      background: radial-gradient(circle at center, #2b0b1a 0%, #060205 100%);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -128,10 +128,10 @@
       align-items: center;
       justify-content: center;
       font-size: 3.2rem;
-      color: #080306;
+      color: #060205;
       cursor: pointer;
       margin-bottom: 2rem;
-      box-shadow: 0 0 50px rgba(201,168,76,0.7), 0 0 100px rgba(232,160,180,0.4);
+      box-shadow: 0 0 50px rgba(201,168,76,0.8), 0 0 100px rgba(232,160,180,0.5);
       animation: pulse-ring 2s infinite;
       transition: transform 0.3s;
     }
@@ -139,7 +139,7 @@
     .play-btn-circle:hover { transform: scale(1.12); }
 
     @keyframes pulse-ring {
-      0% { box-shadow: 0 0 0 0 rgba(201,168,76,0.7); }
+      0% { box-shadow: 0 0 0 0 rgba(201,168,76,0.8); }
       70% { box-shadow: 0 0 0 30px rgba(201,168,76,0); }
       100% { box-shadow: 0 0 0 0 rgba(201,168,76,0); }
     }
@@ -187,9 +187,24 @@
       50% { transform: translateY(-14px); }
     }
 
+    .age-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, rgba(201,168,76,0.25), rgba(232,160,180,0.2));
+      border: 1px solid var(--gold);
+      color: var(--gold-light);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.25em;
+      padding: 0.4rem 1.4rem;
+      border-radius: 30px;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      box-shadow: 0 0 20px rgba(201,168,76,0.4);
+    }
+
     .main-title {
       font-family: 'Playfair Display', serif;
-      font-size: clamp(2.6rem, 8.5vw, 5rem);
+      font-size: clamp(2.5rem, 8vw, 4.8rem);
       font-weight: 900;
       background: linear-gradient(135deg, var(--gold-light), var(--gold), var(--rose));
       -webkit-background-clip: text;
@@ -230,7 +245,7 @@
 
     .letter-card-text {
       font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(1.4rem, 4vw, 1.8rem);
+      font-size: clamp(1.35rem, 3.8vw, 1.75rem);
       font-style: italic;
       line-height: 1.75;
       color: var(--cream);
@@ -276,7 +291,6 @@
       box-shadow: 0 5px 20px rgba(0,0,0,0.5);
     }
 
-    /* FLORAL CORNER ACCENTS FOR PHOTO FRAME */
     .floral-corner {
       position: absolute;
       font-size: 1.8rem;
@@ -338,7 +352,7 @@
       text-transform: uppercase;
     }
 
-    /* FALLING PETALS AND EMOJIS */
+    /* FALLING PETALS AND MAGIC EMOJIS */
     .falling-item {
       position: fixed;
       top: -60px;
@@ -358,17 +372,18 @@
 </head>
 <body>
 
-<!-- HTML5 AUDIO PLAYER FOR YOUR CUSTOM AUDIO FILE -->
+<!-- HTML5 AUDIO PLAYER FOR YOUR CUSTOM AUDIO FILE (PLAYED DURING PHOTOS) -->
 <audio id="photo-audio" src="photos/song.mpeg" preload="auto"></audio>
 
-<!-- SPARKLE & FLORAL CANVAS -->
+<!-- SHOOTING STARS & MAGIC DUST CANVAS -->
 <canvas id="sparkle-canvas"></canvas>
 
 <!-- START OVERLAY -->
 <div id="start-overlay">
   <div class="play-btn-circle" onclick="startBirthdayVideoReel()">▶</div>
-  <h1 style="font-family:'Playfair Display',serif; font-size:2.4rem; color:var(--gold-light); margin-bottom:0.5rem;">Bhuvana's Birthday Video</h1>
-  <p style="font-family:'Cormorant Garamond',serif; font-size:1.4rem; font-style:italic; color:var(--rose);">Tap to play birthday video 💐🎵✨</p>
+  <div class="age-badge">✨ ENTERING AGE 18 ✨</div>
+  <h1 style="font-family:'Playfair Display',serif; font-size:2.4rem; color:var(--gold-light); margin-bottom:0.5rem;">Bhuvana's 18th Birthday</h1>
+  <p style="font-family:'Cormorant Garamond',serif; font-size:1.4rem; font-style:italic; color:var(--rose);">Tap to play birthday story video with magic stars 🌟💐✨</p>
 </div>
 
 <!-- CONTINUOUS VIDEO REEL CONTAINER -->
@@ -379,8 +394,8 @@
     <div class="reel-profile">
       <div class="reel-avatar">👑</div>
       <div>
-        <div class="reel-title-text">Bhuvana 🎂</div>
-        <div class="reel-sub-text" id="header-music-status">🎵 Audio plays during photos</div>
+        <div class="reel-title-text">Bhuvana (Age 18) 🎂</div>
+        <div class="reel-sub-text" id="header-music-status">✨ Light Ambient Music</div>
       </div>
     </div>
     <button class="reel-audio-btn" id="audio-toggle-btn" onclick="toggleAudio()">🎵 Sound: ON</button>
@@ -392,10 +407,10 @@
     <!-- INTRO SCENE -->
     <div class="reel-scene active" id="scene-intro">
       <div class="crown-icon">👑</div>
-      <div style="font-size:0.78rem; letter-spacing:0.35em; color:var(--gold); text-transform:uppercase; margin-bottom:0.5rem;">September 20, 2026</div>
+      <div class="age-badge">✨ WELCOME TO AGE 18 ✨</div>
       <h1 class="main-title">Happy Birthday</h1>
       <h1 class="main-name">Bhuvana</h1>
-      <p class="main-tagline">Today the world is a little more beautiful because you are in it 🌹</p>
+      <p class="main-tagline">Entering a bright new chapter of life, adulthood & endless possibilities! 🌟</p>
     </div>
 
     <!-- LETTER SCENE -->
@@ -403,10 +418,10 @@
       <div style="font-size:0.78rem; letter-spacing:0.35em; color:var(--gold); text-transform:uppercase; margin-bottom:1rem;">✨ A Special Message</div>
       <div class="letter-card-box">
         <p class="letter-card-text">
-          Happy Birthday Bhuvana! Wishing you all the happiness and success in the world! ✨<br><br>
-          May this day bring you endless joy, beautiful moments, and all the smiles you deserve.
-          You are truly one of a kind — a light that makes every moment warmer and brighter.
-          Here is to you, today and always! 🌟
+          Happy 18th Birthday Bhuvana! Welcome to Age 18 and a brand new beginning! ✨<br><br>
+          As you step into adulthood today, may every path you walk bring you success, confidence, and endless joy.
+          You are truly one of a kind — a bright light with an amazing future ahead.
+          Here is to Age 18 and all the wonderful moments waiting for you! 🌟
         </p>
         <div style="margin-top:1.5rem; font-family:'Playfair Display',serif; font-size:1.15rem; color:var(--gold);">— With warmest wishes 💛</div>
       </div>
@@ -418,17 +433,17 @@
     <div class="reel-scene" id="scene-wishes">
       <div style="font-size:0.78rem; letter-spacing:0.35em; color:var(--gold); text-transform:uppercase; margin-bottom:1rem;">🌹 Birthday Wishes</div>
       <div class="wishes-stack">
-        <div class="wish-item">🌟 May every dream you hold close find its way to you this year!</div>
-        <div class="wish-item">🌸 May your life always bloom with color, fragrance, and pure joy.</div>
-        <div class="wish-item">💫 Here is to a fantastic year filled with achievements and happy moments.</div>
-        <div class="wish-item">👑 Walk through life knowing your worth — you are truly one in a million.</div>
+        <div class="wish-item">👑 Welcome to 18! May this new age bring you boundless happiness and success.</div>
+        <div class="wish-item">🌟 May every dream you hold close find its way to you in this new chapter.</div>
+        <div class="wish-item">🌸 May your life always bloom with color, fragrance, and pure peace.</div>
+        <div class="wish-item">💫 Walk through adulthood knowing your worth — you are truly one in a million.</div>
       </div>
     </div>
 
     <!-- FINALE & COUNTDOWN SCENE -->
     <div class="reel-scene" id="scene-finale">
       <div style="font-size:3.8rem; margin-bottom:0.5rem; animation:float 3s infinite;">🎂👑💐✨</div>
-      <h1 style="font-family:'Playfair Display',serif; font-size:2.5rem; color:var(--gold-light);">Celebrating Bhuvana!</h1>
+      <h1 style="font-family:'Playfair Display',serif; font-size:2.5rem; color:var(--gold-light);">Bhuvana is 18!</h1>
       <p style="font-family:'Cormorant Garamond',serif; font-size:1.35rem; font-style:italic; color:var(--rose); margin-top:0.3rem;" id="cd-msg">Counting down to your special day... ✨</p>
 
       <div class="countdown-row">
@@ -437,7 +452,7 @@
         <div class="count-unit"><div class="count-val" id="cd-secs">--</div><div class="count-lbl">Seconds</div></div>
       </div>
 
-      <p style="font-family:'Cormorant Garamond',serif; font-size:1.05rem; color:rgba(249,232,212,0.5); margin-top:1.8rem;">September 20, 2026 — Made with best wishes for Bhuvana ✨</p>
+      <p style="font-family:'Cormorant Garamond',serif; font-size:1.05rem; color:rgba(249,232,212,0.5); margin-top:1.8rem;">Born 2008 · September 20, 2026 — Made with best wishes for Bhuvana ✨</p>
     </div>
 
   </div>
@@ -445,7 +460,7 @@
 </div>
 
 <script>
-  // ========== THE 6 NEWEST CLEAN NAMED PHOTOS ==========
+  // ========== THE 6 NEWEST PHOTOS ==========
   const photos = [
     "photos/photo1.jpeg",
     "photos/photo2.jpeg",
@@ -469,7 +484,7 @@
         <span class="floral-corner fc-tl">🌸</span>
         <span class="floral-corner fc-tr">🌹</span>
         <img class="photo-video-img" src="${src}" alt="Bhuvana Photo ${i + 1}" />
-        <div class="photo-number-badge">Memory #${i + 1} 🌟</div>
+        <div class="photo-number-badge">Age 18 Memory #${i + 1} 🌟</div>
       </div>
     `;
     stack.insertBefore(sc, wishesScene);
@@ -477,8 +492,8 @@
 
   // BUILD COMPLETE CONTINUOUS SEQUENCE
   const sequence = [
-    { id: 'scene-intro', duration: 4000, isPhoto: false },
-    { id: 'scene-letter', duration: 5000, isPhoto: false }
+    { id: 'scene-intro', duration: 4500, isPhoto: false },
+    { id: 'scene-letter', duration: 5500, isPhoto: false }
   ];
 
   photos.forEach((_, i) => {
@@ -493,23 +508,70 @@
   const audioEl = document.getElementById('photo-audio');
   let isAudioEnabled = true;
 
+  // ========== SOFT AMBIENT LIGHT SYNTHESIZER FOR BACKGROUND ==========
+  let bgAudioCtx = null;
+  let bgMusicTimer = null;
+
+  function startBgMusic() {
+    if (bgAudioCtx) return;
+    try {
+      bgAudioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      playBgChime();
+    } catch(e){}
+  }
+
+  function playChimeNote(freq, duration, delay) {
+    if (!isAudioEnabled || !bgAudioCtx || sequence[seqIndex].isPhoto) return;
+    setTimeout(() => {
+      try {
+        const osc = bgAudioCtx.createOscillator();
+        const gain = bgAudioCtx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(freq, bgAudioCtx.currentTime);
+        gain.gain.setValueAtTime(0.04, bgAudioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.0001, bgAudioCtx.currentTime + duration);
+        osc.connect(gain);
+        gain.connect(bgAudioCtx.destination);
+        osc.start();
+        osc.stop(bgAudioCtx.currentTime + duration);
+      } catch(e){}
+    }, delay);
+  }
+
+  function playBgChime() {
+    if (sequence[seqIndex] && !sequence[seqIndex].isPhoto) {
+      const chimes = [
+        { f: 523.25, d: 1.2, t: 0 },    // C5
+        { f: 659.25, d: 1.2, t: 600 },  // E5
+        { f: 783.99, d: 1.5, t: 1200 }, // G5
+        { f: 1046.5, d: 2.0, t: 1800 }  // C6
+      ];
+      chimes.forEach(c => playChimeNote(c.f, c.d, c.t));
+    }
+    bgMusicTimer = setTimeout(() => {
+      if (isAudioEnabled) playBgChime();
+    }, 4500);
+  }
+
   function showSequenceStep(idx) {
     document.querySelectorAll('.reel-scene').forEach(sc => sc.classList.remove('active'));
     const step = sequence[idx];
     const target = document.getElementById(step.id);
     if (target) target.classList.add('active');
 
-    // PLAY AUDIO ONLY WHEN PHOTOS ARE DISPLAYING
+    // AUDIO MANAGEMENT:
+    // If photo step -> Play custom WhatsApp audio
+    // If non-photo step -> Pause WhatsApp audio (soft bg chimes play)
     if (step.isPhoto && isAudioEnabled) {
       if (audioEl.paused) {
         audioEl.play().catch(e => console.log('Audio autoplay prevented:', e));
       }
-      document.getElementById('header-music-status').textContent = '🎵 Playing Audio';
+      document.getElementById('header-music-status').textContent = '🎵 Custom Audio';
     } else {
       if (!audioEl.paused) {
         audioEl.pause();
       }
-      document.getElementById('header-music-status').textContent = step.isPhoto ? '🔇 Muted' : '✨ Birthday Story';
+      document.getElementById('header-music-status').textContent = isAudioEnabled ? '✨ Light Magic Ambient' : '🔇 Muted';
     }
 
     spawnPetalBurst();
@@ -530,6 +592,7 @@
     seqIndex = 0;
     showSequenceStep(0);
     timer = setTimeout(runNextStep, sequence[0].duration);
+    startBgMusic();
     launchBalloons();
     startContinuousPetalRain();
   }
@@ -538,7 +601,7 @@
     isAudioEnabled = !isAudioEnabled;
     const btn = document.getElementById('audio-toggle-btn');
     btn.textContent = isAudioEnabled ? '🎵 Sound: ON' : '🔇 Sound: OFF';
-    
+
     if (!isAudioEnabled) {
       audioEl.pause();
     } else if (sequence[seqIndex].isPhoto) {
@@ -546,10 +609,10 @@
     }
   }
 
-  // ========== FALLING PETALS & PARTY EMOJIS ==========
+  // ========== FALLING PETALS, SHOOTING STARS & MAGIC EMOJIS ==========
   function spawnPetalBurst() {
-    const items = ['🌸', '🌹', '🌺', '💐', '🌷', '✨', '🎉', '🎈', '🥳', '🎁', '💫'];
-    for (let i = 0; i < 6; i++) {
+    const items = ['🌸', '🌹', '🌺', '💐', '✨', '⭐', '🌟', '💫', '🎉', '🎈', '🎂', '👑'];
+    for (let i = 0; i < 7; i++) {
       setTimeout(() => {
         const p = document.createElement('div');
         p.className = 'falling-item';
@@ -559,20 +622,21 @@
         p.textContent = items[Math.floor(Math.random() * items.length)];
         document.body.appendChild(p);
         setTimeout(() => p.remove(), 7000);
-      }, i * 200);
+      }, i * 180);
     }
   }
 
   function startContinuousPetalRain() {
     setInterval(() => {
       spawnPetalBurst();
-    }, 3000);
+    }, 2800);
   }
 
-  // ========== SPARKLE CANVAS ==========
+  // ========== SHOOTING STARS & MAGIC DUST CANVAS ==========
   const canvas = document.getElementById('sparkle-canvas');
   const ctx = canvas.getContext('2d');
   let particles = [];
+  let shootingStars = [];
 
   function resizeCanvas() {
     canvas.width = window.innerWidth;
@@ -586,10 +650,10 @@
     reset() {
       this.x = Math.random() * canvas.width;
       this.y = Math.random() * canvas.height;
-      this.size = Math.random() * 2.5 + 0.5;
+      this.size = Math.random() * 2.8 + 0.6;
       this.speedX = (Math.random() - 0.5) * 0.4;
       this.speedY = Math.random() * -0.8 - 0.2;
-      this.opacity = Math.random() * 0.6 + 0.2;
+      this.opacity = Math.random() * 0.7 + 0.2;
       this.life = Math.random() * 200 + 100;
       this.maxLife = this.life;
       this.color = Math.random() > 0.5 ? `rgba(201,168,76,${this.opacity})` : `rgba(232,160,180,${this.opacity})`;
@@ -603,7 +667,7 @@
     draw() {
       const alpha = this.life / this.maxLife;
       ctx.save();
-      ctx.globalAlpha = alpha * 0.7;
+      ctx.globalAlpha = alpha * 0.8;
       ctx.fillStyle = this.color;
       ctx.beginPath();
       ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
@@ -612,16 +676,58 @@
     }
   }
 
-  for (let i = 0; i < 90; i++) particles.push(new Particle());
+  class ShootingStar {
+    constructor() { this.reset(); }
+    reset() {
+      this.x = Math.random() * canvas.width;
+      this.y = Math.random() * (canvas.height * 0.4);
+      this.len = Math.random() * 80 + 40;
+      this.speed = Math.random() * 8 + 4;
+      this.size = Math.random() * 2 + 1;
+      this.life = 0;
+      this.maxLife = 30;
+      this.active = false;
+    }
+    spawn() {
+      this.reset();
+      this.active = true;
+    }
+    update() {
+      if (!this.active) return;
+      this.x -= this.speed;
+      this.y += this.speed * 0.6;
+      this.life++;
+      if (this.life >= this.maxLife) this.active = false;
+    }
+    draw() {
+      if (!this.active) return;
+      ctx.save();
+      ctx.strokeStyle = 'rgba(240,208,128,0.8)';
+      ctx.lineWidth = this.size;
+      ctx.beginPath();
+      ctx.moveTo(this.x, this.y);
+      ctx.lineTo(this.x + this.len, this.y - this.len * 0.6);
+      ctx.stroke();
+      ctx.restore();
+    }
+  }
+
+  for (let i = 0; i < 100; i++) particles.push(new Particle());
+  for (let i = 0; i < 3; i++) shootingStars.push(new ShootingStar());
+
+  setInterval(() => {
+    const star = shootingStars[Math.floor(Math.random() * shootingStars.length)];
+    if (star) star.spawn();
+  }, 2500);
 
   document.addEventListener('touchstart', (e) => {
     if (e.touches.length > 0) {
-      for (let i = 0; i < 4; i++) {
+      for (let i = 0; i < 5; i++) {
         const p = new Particle();
         p.x = e.touches[0].clientX + (Math.random() - 0.5) * 20;
         p.y = e.touches[0].clientY + (Math.random() - 0.5) * 20;
-        p.life = 50;
-        p.maxLife = 50;
+        p.life = 60;
+        p.maxLife = 60;
         p.size = Math.random() * 3 + 1;
         particles.push(p);
       }
@@ -631,6 +737,7 @@
   function animateParticles() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     particles.forEach(p => { p.update(); p.draw(); });
+    shootingStars.forEach(s => { s.update(); s.draw(); });
     requestAnimationFrame(animateParticles);
   }
   animateParticles();
@@ -660,7 +767,7 @@
     const msgEl = document.getElementById('cd-msg');
 
     if (diff <= 0) {
-      msgEl.textContent = '🎉 TODAY IS THE DAY! Happy Birthday Bhuvana! 🎉';
+      msgEl.textContent = '🎉 TODAY IS THE DAY! Happy 18th Birthday Bhuvana! 🎉';
       return;
     }
 
